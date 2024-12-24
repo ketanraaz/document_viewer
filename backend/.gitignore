@@ -1,0 +1,38 @@
+# Global Ignored Files
+.DS_Store
+*.log
+*.env
+*.local
+
+# Backend-specific ignores
+node_modules
+dist
+logs
+*.env
+
+# Frontend-specific ignores
+frontend/node_modules
+frontend/dist
+frontend/build
+frontend/.next
+frontend/logs
+frontend/*.env
+
+# Database Files
+input.duckdb
+
+# IDE/Editor Ignored Files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+._*
+Thumbs.db
+ehthumbs.db
+.directory
+.DS_Store
